@@ -31,6 +31,7 @@ export const useSubmitPrompt = () => {
 
     dispatch(setResultData(response));
     dispatch(setLoading(false));
+
     dispatch(setInputValue(""));
   };
 
