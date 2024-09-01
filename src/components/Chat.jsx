@@ -49,6 +49,7 @@ const Chat = () => {
     <div className="m-4 w-full lg:max-w-[50%] lg:mx-auto mb-[7em] text-[0.8em] flex flex-col space-y-4">
       <div className="flex items-center p-1 space-x-3">
         <img
+          loading="lazy"
           className="w-8 h-8 rounded-full aspect-auto"
           src={currentUser?.photoURL}
           alt="profile"
@@ -89,6 +90,7 @@ const Chat = () => {
 
       <div className={`flex items-start space-x-2`}>
         <img
+          loading="lazy"
           className="w-10 h-10 align-top aspect-auto"
           src={logo}
           alt="logo"

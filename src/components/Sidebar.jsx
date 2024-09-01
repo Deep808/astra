@@ -3,11 +3,7 @@ import { HiMenuAlt2 } from "react-icons/hi";
 import { FaPlus } from "react-icons/fa6";
 import { MdOutlineChat } from "react-icons/md";
 import { useDispatch, useSelector } from "react-redux";
-import {
-  setInputValue,
-  setRecentPrompt,
-  setShowResults,
-} from "../slices/promptSlice";
+import { setInputValue, setShowResults } from "../slices/promptSlice";
 import { useSubmitPrompt } from "../hooks/useSubmitPrompt";
 
 const Sidebar = () => {
